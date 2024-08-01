@@ -6,7 +6,7 @@ on:
 
 jobs: 
   deploy_infra: 
-    name: Install Ubuntu 
+    name: Deploy Infrastructure
     runs-on: ubuntu-latest 
     defaults: 
       run: 
