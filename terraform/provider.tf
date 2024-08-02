@@ -15,3 +15,5 @@ terraform {
 provider "aws" {
     region = "eu-north-1"
 }
+  subnet_id = "subnet-0e7d227d9d31c2d07"
+ 
