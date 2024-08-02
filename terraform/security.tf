@@ -1,7 +1,7 @@
 resource "aws_security_group" "example" {
   name        = "sonarQube-sg"
   description = "Security group for sonarQube"
-  vpc_id      = "vpc-0ea476e6a3e2edca7"
+  vpc_id      = "vpc-095315bf9740c5e6b"
 
   ingress {
     from_port   = -1
