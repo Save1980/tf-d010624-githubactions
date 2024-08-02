@@ -1,6 +1,7 @@
 resource "aws_instance" "web" {
   ami                    = data.aws_ami.ubuntu.id
   instance_type          = "t3.large"
+  subnet_id = "subnet-0e7d227d9d31c2d07"
   vpc_security_group_ids = [aws_security_group.example.id]
   key_name               = var.key_name
   user_data              = <<-EOF
